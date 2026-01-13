@@ -5,7 +5,7 @@
     >
       <img
         src="../assets/images/tuane.png"
-        alt="Alimentação Saudável"
+        alt="Tuane Marcela Correia"
         class="absolute right-0 top-0 w-full h-full md:w-1/2 object-cover object-center opacity-20 md:opacity-100 z-0"
       />
 
