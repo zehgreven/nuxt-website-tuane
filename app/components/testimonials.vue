@@ -58,5 +58,10 @@ const depoimentos = [
     data: '09:15',
     texto: 'Minha disposição no treino mudou completamente. Dormindo melhor também!',
   },
+  {
+    nome: 'Pedro Santos',
+    data: '11:30',
+    texto: 'O programa ajudou muito a controlar os sintomas da minha SII. Estou muito feliz!',
+  },
 ];
 </script>
