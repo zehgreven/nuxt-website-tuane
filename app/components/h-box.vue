@@ -1,6 +1,8 @@
 <template>
-  <div class="space-y-2 p-5 bg-gray-700 dark:bg-gray-800 flex flex-col items-start text-start">
-    <UIcon :name="icon" :size="size" class="text-gray-200 dark:text-gray-400" />
+  <div
+    class="space-y-2 p-5 bg-orange-500 dark:bg-orange-400 text-white flex flex-col items-start text-start"
+  >
+    <UIcon :name="icon" :size="size" class="text-white" />
     <div>
       <slot />
     </div>
