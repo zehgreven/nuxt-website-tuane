@@ -1,23 +1,31 @@
 <template>
   <div>
-    <section class="bg-rose-400 dark:bg-rose-900 pt-20 pb-20">
-      <div class="container max-w-4xl justify-self-center grid grid-cols-1 md:grid-cols-2">
-        <div class="col-span-1">
-          <h2 class="text-4xl text-center md:text-left text-white mb-10">
-            <strong>Controle os sintomas</strong> da SII de uma vez <strong>por todas</strong>!
-          </h2>
-          <h2 class="text-2xl text-center md:text-left text-white mb-10">
-            Tenha a chance de ser tratada com um método cientificamente comprovado com um protocolo
-            pouco conhecido, porém altamente eficaz
-          </h2>
-          <div class="justify-self-center md:justify-self-start">
-            <ButtonAgendarConsulta />
-          </div>
+    <section
+      class="relative container max-w-4xl mx-auto px-4 py-20 overflow-hidden min-h-125 flex items-center"
+    >
+      <img
+        src="../assets/images/tuane.png"
+        alt="Alimentação Saudável"
+        class="absolute right-0 top-0 w-full h-full md:w-1/2 object-cover object-center opacity-20 md:opacity-100 z-0"
+      />
+
+      <div class="relative z-10 grid md:grid-cols-2 w-full">
+        <div class="space-y-4 md:pr-8">
+          <h1 class="text-4xl font-bold text-gray-900 dark:text-white">Nutrição Humanizada</h1>
+          <p class="text-lg text-gray-600 dark:text-gray-300">
+            Transforme sua relação com a comida através de um acompanhamento personalizado e focado
+            no seu bem-estar integral.
+          </p>
+          <ButtonAgendarConsulta />
         </div>
+
+        <div class="hidden md:block"></div>
       </div>
     </section>
+
     <div class="border-b-8 border-b-yellow-100 dark:border-b-yellow-200"></div>
-    <section class="bg-amber-900 dark:bg-amber-950 pt-20 pb-20 text-center text-white">
+
+    <section class="pt-20 pb-20 text-center bg-gray-700 dark:bg-gray-800 text-white">
       <div
         class="container max-w-4xl justify-self-center flex flex-col items-center justify-center"
       >
@@ -52,7 +60,7 @@
           sintomas, <strong>mas a verdade é uma só:</strong>
         </div>
 
-        <div class="text-2xl mb-5 bg-amber-950 p-5">
+        <div class="text-2xl text-white mb-5 bg-orange-500 dark:bg-orange-400 p-5">
           NÃO É A DIETA GENERALISTA QUE VAI ALIVIAR OS SINTOMAS DA SII
         </div>
 
