@@ -11,7 +11,7 @@
           </div>
           <div class="flex gap-2 sm:justify-center">
             <ButtonSocial icon="app:instagram" link="https://www.instagram.com/nutri.tuane/" />
-            <ButtonSocial icon="app:whatsapp" link="http://wa.me/+554491075497" />
+            <ButtonSocial icon="app:whatsapp" link="http://wa.me/554491075497" />
           </div>
         </div>
       </div>

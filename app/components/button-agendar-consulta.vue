@@ -4,7 +4,7 @@
     label="AGENDAR CONSULTA AGORA"
     color="primary"
     variant="solid"
-    to="https://wa.me/+554491075497"
+    to="https://wa.me/554491075497"
     target="_blank"
   />
 </template>
