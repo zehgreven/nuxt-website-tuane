@@ -4,6 +4,7 @@
 
     <main>
       <slot />
+      <Footer />
       <div class="fixed bottom-6 right-6 z-50">
         <UButton
           to="https://wa.me/554491075497"
