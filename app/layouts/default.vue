@@ -5,22 +5,19 @@
     <main>
       <slot />
       <Footer />
-      <div class="fixed bottom-6 right-6 z-50">
-        <UButton
-          to="https://wa.me/554491075497"
-          target="_blank"
-          rel="noopener noreferrer"
-          size="xl"
-          color="neutral"
-          variant="link"
-          class="rounded-full shadow-2xl hover:scale-120 transition-transform p-4"
-        >
-          <template #leading>
-            <Icon name="logos:whatsapp-icon" class="w-8 h-8" />
-          </template>
-        </UButton>
-      </div>
     </main>
+  </div>
+  <div class="fixed inset-0 h-svh pointer-events-none z-60">
+    <div class="absolute right-10 bottom-5 md:bottom-6 pointer-events-auto">
+      <UButton
+        to="https://wa.me/554491075497"
+        target="_blank"
+        class="rounded-full shadow-2xl hover:scale-110 transition-transform p-0"
+        variant="link"
+      >
+        <Icon name="logos:whatsapp-icon" class="w-14 h-14 md:w-16 md:h-16" />
+      </UButton>
+    </div>
   </div>
 </template>
 
