@@ -6,7 +6,7 @@
     :to="link"
     target="_blank"
   >
-    <UIcon :name="icon" class="text-3xl text-gray-900 dark:text-gray-200" />
+    <UIcon :name="icon" class="text-3xl" />
   </UButton>
 </template>
 
