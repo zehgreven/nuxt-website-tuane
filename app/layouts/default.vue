@@ -1,33 +1,6 @@
 <template>
   <div class="mx-auto min-h-screen">
-    <header class="sticky top-0 z-50 bg-white dark:bg-gray-900 py-5 shadow-sm">
-      <div class="flex justify-between items-center px-5">
-        <div class="container max-w-4xl mx-auto px-4">
-          <div class="flex justify-center items-center flex-wrap sm:justify-between">
-            <div class="flex items-center md:space-x-12">
-              <NuxtLink to="/" class="text-center">
-                <div class="text-3xl font-semibold">Tuane Marcela Correia</div>
-                <div class="text-lg font-thin">Nutricionista</div>
-              </NuxtLink>
-            </div>
-            <div class="flex gap-2 sm:justify-center">
-              <ButtonSocial
-                icon="pixel:logo-instagram"
-                link="https://www.instagram.com/nutri.tuane/"
-              />
-              <ButtonSocial
-                icon="pixel:logo-linkedin"
-                link="https://www.linkedin.com/in/tuane-marcela-correia/"
-              />
-              <ButtonSocial icon="pixel:logo-whatsapp" link="http://wa.me/+554491075497" />
-            </div>
-          </div>
-        </div>
-        <ClientOnly>
-          <UColorModeButton size="xl" />
-        </ClientOnly>
-      </div>
-    </header>
+    <Header />
 
     <main>
       <slot />
@@ -75,6 +48,6 @@ body {
 }
 
 body {
-  @apply bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300;
+  @apply bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-200;
 }
 </style>
