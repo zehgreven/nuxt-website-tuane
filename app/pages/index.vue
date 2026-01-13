@@ -10,13 +10,15 @@
       />
 
       <div class="relative z-10 grid md:grid-cols-2 w-full">
-        <div class="space-y-4 md:pr-8">
+        <div class="space-y-4 md:pr-8 text-center md:text-left">
           <h1 class="text-4xl font-bold text-gray-900 dark:text-white">Nutrição Humanizada</h1>
           <p class="text-lg text-gray-600 dark:text-gray-300">
             Transforme sua relação com a comida através de um acompanhamento personalizado e focado
             no seu bem-estar integral.
           </p>
-          <ButtonAgendarConsulta />
+          <div class="justify-self-center md:justify-self-start">
+            <ButtonAgendarConsulta />
+          </div>
         </div>
 
         <div class="hidden md:block"></div>
