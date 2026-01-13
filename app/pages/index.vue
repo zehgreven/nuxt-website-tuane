@@ -10,26 +10,28 @@
             Tenha a chance de ser tratada com um método cientificamente comprovado com um protocolo
             pouco conhecido, porém altamente eficaz
           </h2>
-          <UButton
-            class="pt-5 pb-5 pl-10 pr-10"
-            label="AGENDAR CONSULTA AGORA"
-            to="/sobre"
-            color="neutral"
-            variant="soft"
-          />
+          <ButtonAgendarConsulta />
         </div>
       </div>
     </section>
     <div class="border-b-8 border-b-yellow-100 dark:border-b-yellow-200"></div>
     <section class="bg-amber-900 dark:bg-amber-950 pt-20 pb-20 text-center text-white">
       <div class="container max-w-4xl justify-self-center">
-        <div class="text-4xl">Se você…</div>
+        <div class="text-4xl mb-10">Se você…</div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2">
-          <HBox class="col-span-1" icon="i-heroicons-calendar-solid">Test</HBox>
-          <HBox class="col-span-1">Test</HBox>
-          <HBox class="col-span-1">Test</HBox>
-          <HBox class="col-span-1">Test</HBox>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10">
+          <HBox class="col-span-1" icon="pixel:health-stool">
+            Não consegue parar de alternar entre diarreia e constipação
+          </HBox>
+          <HBox class="col-span-1" icon="pixel:design-ruler">
+            Não consegue diminuir o estufamento na barriga
+          </HBox>
+          <HBox class="col-span-1" icon="pixel:healthy-food-dish">
+            Está cansada de se sentir constrangida por causa dos sintomas da SII
+          </HBox>
+          <HBox class="col-span-1" icon="pixel:health-medical-notes">
+            Sente que já tentou de tudo para lidar com a Síndrome do Intestino Irritável
+          </HBox>
         </div>
 
         <div class="text-2xl mb-5">
@@ -55,13 +57,7 @@
           que você tem… <strong>E ele não se resume</strong> a seguir uma dieta saudável
         </div>
 
-        <UButton
-          class="pt-5 pb-5 pl-10 pr-10"
-          label="AGENDAR CONSULTA AGORA"
-          to="/sobre"
-          color="neutral"
-          variant="soft"
-        />
+        <ButtonAgendarConsulta />
       </div>
     </section>
   </div>
