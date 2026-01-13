@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto min-h-screen">
+  <div class="mx-auto min-h-dvh">
     <Header />
 
     <main>
@@ -25,7 +25,7 @@
 
 <script setup>
 useHead({
-  titleTemplate: '%s - Tuane Marcela Correia',
+  titleTemplate: 'Tuane Marcela Correia',
   link: [
     {
       rel: 'preconnect',
