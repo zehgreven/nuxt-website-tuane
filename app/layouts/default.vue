@@ -1,6 +1,6 @@
 <template>
   <div class="mx-auto min-h-screen">
-    <header class="sticky top-0 bg-white dark:bg-gray-900 py-5 shadow-sm">
+    <header class="sticky top-0 z-50 bg-white dark:bg-gray-900 py-5 shadow-sm">
       <div class="flex justify-between items-center px-5">
         <div class="container max-w-4xl mx-auto px-4">
           <div class="flex justify-center items-center flex-wrap sm:justify-between">
@@ -31,6 +31,21 @@
 
     <main>
       <slot />
+      <div class="fixed bottom-6 right-6 z-50">
+        <UButton
+          to="https://wa.me/+554491075497"
+          target="_blank"
+          rel="noopener noreferrer"
+          size="xl"
+          color="neutral"
+          variant="link"
+          class="rounded-full shadow-2xl hover:scale-120 transition-transform p-4"
+        >
+          <template #leading>
+            <Icon name="logos:whatsapp-icon" class="w-8 h-8" />
+          </template>
+        </UButton>
+      </div>
     </main>
   </div>
 </template>
