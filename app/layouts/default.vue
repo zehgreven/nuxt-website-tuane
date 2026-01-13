@@ -8,7 +8,7 @@
     </main>
   </div>
   <div class="fixed inset-0 h-svh pointer-events-none z-60">
-    <div class="absolute right-10 bottom-5 md:bottom-6 pointer-events-auto">
+    <div class="absolute right-5 bottom-5 md:bottom-6 pointer-events-auto">
       <UButton
         to="https://wa.me/554491075497"
         target="_blank"
