@@ -78,9 +78,7 @@
     <div class="border-b-8 border-b-yellow-100 dark:border-b-yellow-200"></div>
 
     <section class="pt-20 pb-20 text-center">
-      <div
-        class="container max-w-4xl justify-self-center flex flex-col items-center justify-center"
-      >
+      <div class="container max-w-4xl justify-self-center">
         <Testimonials />
       </div>
     </section>
