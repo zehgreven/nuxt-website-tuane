@@ -1,19 +1,22 @@
 <template>
-  <div class="mx-auto">
-    <div class="container max-w-4xl justify-self-center">
-      <header class="flex justify-between items-start md:items-center mt-5">
-        <div class="flex items-center md:space-x-12">
-          <NuxtLink to="/" class="text-center p-2">
-            <div class="text-3xl font-semibold">Tuane Marcela Correia</div>
-            <div class="text-lg font-thin">Nutricionista</div>
-          </NuxtLink>
+  <div class="mx-auto min-h-screen">
+    <header class="sticky top-0 z-50 bg-white dark:bg-gray-900 py-5 shadow-sm">
+      <div class="container max-w-4xl mx-auto px-4">
+        <div class="flex justify-between items-start md:items-center">
+          <div class="flex items-center md:space-x-12">
+            <NuxtLink to="/" class="text-center">
+              <div class="text-3xl font-semibold">Tuane Marcela Correia</div>
+              <div class="text-lg font-thin">Nutricionista</div>
+            </NuxtLink>
+          </div>
+          <ClientOnly>
+            <UColorModeButton />
+          </ClientOnly>
         </div>
-        <ClientOnly>
-          <UColorModeButton />
-        </ClientOnly>
-      </header>
-    </div>
-    <main class="mt-10">
+      </div>
+    </header>
+
+    <main>
       <slot />
     </main>
   </div>
