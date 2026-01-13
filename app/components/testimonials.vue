@@ -9,7 +9,8 @@
         item: 'basis-full md:basis-1/2 lg:basis-1/3 justify-center',
       }"
       indicators
-      class="rounded-lg overflow-hidden"
+      dots
+      class="rounded-lg"
       autoplay
       :interval="4000"
     >
