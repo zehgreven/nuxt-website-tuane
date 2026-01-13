@@ -10,13 +10,17 @@
             Tenha a chance de ser tratada com um método cientificamente comprovado com um protocolo
             pouco conhecido, porém altamente eficaz
           </h2>
-          <ButtonAgendarConsulta />
+          <div class="justify-self-center md:justify-self-start">
+            <ButtonAgendarConsulta />
+          </div>
         </div>
       </div>
     </section>
     <div class="border-b-8 border-b-yellow-100 dark:border-b-yellow-200"></div>
     <section class="bg-amber-900 dark:bg-amber-950 pt-20 pb-20 text-center text-white">
-      <div class="container max-w-4xl justify-self-center">
+      <div
+        class="container max-w-4xl justify-self-center flex flex-col items-center justify-center"
+      >
         <div class="text-4xl mb-10">Se você…</div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10">
