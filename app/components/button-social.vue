@@ -1,5 +1,11 @@
 <template>
-  <UButton class="p-1" color="neutral" variant="soft" :to="link" target="_blank">
+  <UButton
+    class="p-1 hover:scale-120 transition-transform"
+    color="neutral"
+    variant="soft"
+    :to="link"
+    target="_blank"
+  >
     <UIcon :name="icon" class="text-3xl" />
   </UButton>
 </template>
