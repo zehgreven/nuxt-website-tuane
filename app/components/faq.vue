@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full">
+  <div class="w-full p-5">
     <h2 class="text-4xl mb-10">Perguntas Frequentes</h2>
     <UAccordion class="text-left" :items="items" />
   </div>
