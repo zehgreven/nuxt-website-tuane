@@ -1,2 +1,6 @@
 @import 'tailwindcss' theme(static);
 @import '@nuxt/ui';
+
+@theme {
+  --breakpoint-xs: 350px;
+}

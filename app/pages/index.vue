@@ -25,7 +25,7 @@
       </div>
     </section>
 
-    <div class="border-b-8 border-b-yellow-100 dark:border-b-yellow-200"></div>
+    <Separator />
 
     <section class="py-20 px-5 text-center bg-gray-700 dark:bg-gray-800 text-white">
       <div
@@ -75,7 +75,7 @@
       </div>
     </section>
 
-    <div class="border-b-8 border-b-yellow-100 dark:border-b-yellow-200"></div>
+    <Separator />
 
     <section class="pt-20 pb-20 text-center">
       <div class="container max-w-4xl justify-self-center">
@@ -83,7 +83,7 @@
       </div>
     </section>
 
-    <div class="border-b-8 border-b-yellow-100 dark:border-b-yellow-200"></div>
+    <Separator />
 
     <section class="pt-20 pb-20 text-center bg-gray-700 dark:bg-gray-800 text-white">
       <div
@@ -92,5 +92,7 @@
         <Faq />
       </div>
     </section>
+
+    <Separator />
   </div>
 </template>

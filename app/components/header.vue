@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky top-0 z-50 bg-white dark:bg-gray-900 py-5 shadow-sm">
+  <header class="sticky top-0 z-50 bg-white dark:bg-gray-900 py-3 sm:py-5 shadow-sm">
     <div class="flex justify-between items-center px-5">
       <div class="container max-w-4xl mx-auto px-4">
         <div class="flex justify-between items-center flex-wrap">
@@ -20,7 +20,9 @@
         </div>
       </div>
       <ClientOnly>
-        <ColorModeSelector />
+        <div class="hidden h-full xs:flex items-center justify-center">
+          <ColorModeSelector />
+        </div>
       </ClientOnly>
     </div>
   </header>
