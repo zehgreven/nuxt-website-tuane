@@ -1,5 +1,9 @@
 <template>
-  <button @click="toggleMode" :icon="nextModeIcon" class="hover:bg-gray-200 dark:hover:bg-gray-600">
+  <button
+    @click="toggleMode"
+    :icon="nextModeIcon"
+    class="flex items-center justify-center w-10 h-10 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"
+  >
     <Icon :name="nextModeIcon" size="30" class="" />
   </button>
 </template>

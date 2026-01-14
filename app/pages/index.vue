@@ -10,7 +10,7 @@
       />
 
       <div class="relative z-10 grid md:grid-cols-2 w-full">
-        <div class="space-y-4 md:pr-8 text-center md:text-left">
+        <div class="space-y-4 md:px-5 text-center md:text-left">
           <h1 class="text-4xl font-bold text-gray-900 dark:text-white">Nutrição Humanizada</h1>
           <p class="text-lg text-gray-600 dark:text-gray-300">
             Transforme sua relação com a comida através de um acompanhamento personalizado e focado
@@ -27,7 +27,7 @@
 
     <div class="border-b-8 border-b-yellow-100 dark:border-b-yellow-200"></div>
 
-    <section class="pt-20 pb-20 text-center bg-gray-700 dark:bg-gray-800 text-white">
+    <section class="py-20 px-5 text-center bg-gray-700 dark:bg-gray-800 text-white">
       <div
         class="container max-w-4xl justify-self-center flex flex-col items-center justify-center"
       >

@@ -27,8 +27,8 @@ const props = defineProps({
 });
 
 const sizeClasses = {
-  sm: 'text-xl xl:text-2xl',
-  md: 'text-3xl xl:text-4xl',
-  lg: 'text-5xl xl:text-6xl',
+  sm: 'text-xl md:text-2xl',
+  md: 'text-3xl md:text-4xl',
+  lg: 'text-5xl md:text-6xl',
 };
 </script>
