@@ -10,10 +10,10 @@
             </NuxtLink>
           </div>
           <div class="flex gap-2 xm:justify-center">
-            <ButtonSocial icon="app:instagram" link="https://www.instagram.com/nutri.tuane/" />
+            <ButtonSocial icon="logo:instagram" link="https://www.instagram.com/nutri.tuane/" />
             <ButtonSocial
               class="hidden sm:block"
-              icon="app:whatsapp"
+              icon="logo:whatsapp"
               link="http://wa.me/554491075497"
             />
           </div>

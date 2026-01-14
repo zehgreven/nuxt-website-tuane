@@ -34,11 +34,11 @@
           </h4>
           <div class="flex gap-4">
             <ButtonSocial
-              icon="app:instagram"
+              icon="logo:instagram"
               size="sm"
               link="https://www.instagram.com/nutri.tuane/"
             />
-            <ButtonSocial icon="app:whatsapp" size="sm" link="http://wa.me/554491075497" />
+            <ButtonSocial icon="logo:whatsapp" size="sm" link="http://wa.me/554491075497" />
           </div>
         </div>
       </div>

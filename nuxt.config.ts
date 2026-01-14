@@ -22,6 +22,10 @@ export default defineNuxtConfig({
         prefix: 'pixel',
         dir: './app/assets/icons/pixel',
       },
+      {
+        prefix: 'logo',
+        dir: './app/assets/icons/logos',
+      },
     ],
   },
 });
