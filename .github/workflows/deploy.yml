@@ -25,11 +25,10 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Build
-        run: yarn build
+      - name: Generate static site
+        run: yarn generate
         env:
           NODE_ENV: production
-          NITRO_PRESET: node-server
 
       - name: Setup SSH
         uses: webfactory/ssh-agent@v0.9.0
@@ -44,7 +43,7 @@ jobs:
           mkdir -p ~/.ssh
           ssh-keyscan -p "${VPS_PORT:-22}" -H "$VPS_HOST" >> ~/.ssh/known_hosts
 
-      - name: Sync build to VPS
+      - name: Sync static files to VPS
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
           VPS_USER: ${{ secrets.VPS_USER }}
@@ -54,20 +53,5 @@ jobs:
           PORT="${VPS_PORT:-22}"
           rsync -az --delete \
             -e "ssh -p ${PORT}" \
-            .output/ \
-            "${VPS_USER}@${VPS_HOST}:${VPS_PATH}/.output/"
-          rsync -az \
-            -e "ssh -p ${PORT}" \
-            ecosystem.config.cjs \
-            "${VPS_USER}@${VPS_HOST}:${VPS_PATH}/ecosystem.config.cjs"
-
-      - name: Restart app with PM2
-        env:
-          VPS_HOST: ${{ secrets.VPS_HOST }}
-          VPS_USER: ${{ secrets.VPS_USER }}
-          VPS_PORT: ${{ secrets.VPS_PORT }}
-          VPS_PATH: ${{ secrets.VPS_PATH }}
-        run: |
-          PORT="${VPS_PORT:-22}"
-          ssh -p "${PORT}" "${VPS_USER}@${VPS_HOST}" \
-            "cd '${VPS_PATH}' && (pm2 reload ecosystem.config.cjs --only tuane || pm2 start ecosystem.config.cjs) && pm2 save"
+            .output/public/ \
+            "${VPS_USER}@${VPS_HOST}:${VPS_PATH}/"
