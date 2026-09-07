@@ -19,7 +19,7 @@
           <ul class="text-sm space-y-2 text-gray-600 dark:text-gray-300">
             <li class="flex items-center gap-2">
               <UIcon name="i-heroicons-envelope" class="w-4 h-4" />
-              contato@nutrituane.com.br
+              nutrituanecorreia@gmail.com
             </li>
             <li class="flex items-center gap-2">
               <UIcon name="i-heroicons-phone" class="w-4 h-4" />
