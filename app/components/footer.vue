@@ -19,7 +19,7 @@
           <ul class="text-sm space-y-2 text-gray-600 dark:text-gray-300">
             <li class="flex items-center gap-2">
               <UIcon name="i-heroicons-envelope" class="w-4 h-4" />
-              contato@tuanutri.com.br
+              contato@nutrituane.com.br
             </li>
             <li class="flex items-center gap-2">
               <UIcon name="i-heroicons-phone" class="w-4 h-4" />
@@ -49,7 +49,7 @@
         class="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-400"
       >
         <span>© 2026 Tuane Marcela Correia. Todos os direitos reservados.</span>
-        <span>CRN-8 12345 | CNPJ: 00.000.000/0000-00</span>
+        <span>CRN-8 20647</span>
       </div>
     </div>
   </footer>
