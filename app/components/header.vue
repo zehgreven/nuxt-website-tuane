@@ -8,7 +8,7 @@
         </NuxtLink>
         <div class="flex items-center gap-2">
           <ButtonAcessarSistema />
-          <ButtonSocial icon="logo:instagram" link="https://www.instagram.com/nutri.tuane/" />
+          <ButtonSocial icon="logo:instagram" link="https://www.instagram.com/nutrituane/" />
           <ButtonSocial
             class="hidden sm:block"
             icon="logo:whatsapp"
