@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky top-0 z-50 bg-brand-dark-green dark:bg-gray-900 py-3 sm:py-5 shadow-sm">
+  <header class="sticky top-0 z-50 bg-brand-green-500 dark:bg-gray-900 py-3 sm:py-5 shadow-sm">
     <div class="container max-w-4xl mx-auto px-4">
       <div class="flex justify-between items-center gap-2">
         <NuxtLink to="/" class="min-w-0 text-left text-gray-900 dark:text-gray-200">

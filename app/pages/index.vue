@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class="bg-brand-orange-300 dark:bg-brand-green-950">
     <section
       class="relative container max-w-4xl mx-auto px-4 py-20 overflow-hidden min-h-125 flex items-center"
     >
       <img
-        src="../assets/images/tuane.png"
+        src="../assets/images/IMG_4317.jpeg"
         alt="Tuane Marcela Correia"
         class="absolute right-0 top-0 w-full h-full md:w-1/2 object-cover object-center opacity-20 md:opacity-100 z-0"
       />
