@@ -4,3 +4,18 @@
 @theme {
   --breakpoint-xs: 350px;
 }
+
+@theme static {
+  --color-brand-dark-green: rgb(97 98 82);
+  --color-brand-dark-green-50: rgb(244 244 240);
+  --color-brand-dark-green-100: rgb(232 232 224);
+  --color-brand-dark-green-200: rgb(209 210 196);
+  --color-brand-dark-green-300: rgb(179 180 163);
+  --color-brand-dark-green-400: rgb(138 139 118);
+  --color-brand-dark-green-500: rgb(97 98 82);
+  --color-brand-dark-green-600: rgb(78 79 66);
+  --color-brand-dark-green-700: rgb(60 61 51);
+  --color-brand-dark-green-800: rgb(43 44 37);
+  --color-brand-dark-green-900: rgb(28 28 24);
+  --color-brand-dark-green-950: rgb(17 17 14);
+}
