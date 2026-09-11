@@ -2,7 +2,10 @@
   <header class="sticky top-0 z-50 bg-brand-green-500 dark:bg-gray-900 py-3 sm:py-5 shadow-sm">
     <div class="container max-w-4xl mx-auto px-4">
       <div class="flex justify-between items-center gap-2">
-        <NuxtLink to="/" class="min-w-0 text-center text-brand-yellow-500 dark:text-gray-200">
+        <NuxtLink
+          to="/"
+          class="min-w-0 text-center text-brand-yellow-500 dark:text-brand-yellow-500"
+        >
           <div class="font-dream-avenue text-base xs:text-xl sm:text-3xl truncate">
             Tuane Correia
           </div>
