@@ -13,10 +13,12 @@ DEFAULT_SRC = ROOT / "app/assets/images/sofa-preto.jpeg"
 DEFAULT_DST = ROOT / "app/assets/images/sofa-preto.png"
 
 # Chroma-key thresholds: how much greener than R/B a pixel must be.
-HARD_GREEN = 28
-SOFT_GREEN = 8
+HARD_GREEN = 36
+SOFT_GREEN = 14
 GREEN_HUE_MIN = 50
 GREEN_HUE_MAX = 105
+SCREEN_SAT = 100
+SOFT_SAT = 75
 
 
 def greenness(r: int, g: int, b: int) -> int:
@@ -28,25 +30,28 @@ def clamp(value: int) -> int:
 
 
 def key_alpha(r: int, g: int, b: int, h: int, s: int, v: int) -> int:
-    if v < 50 and max(r, g, b) < 90:
+    score = greenness(r, g, b)
+    # Keep dark leather and shadows even when they pick up a green cast.
+    if max(r, g, b) < 110 and score < 25:
+        return 255
+    if v < 55 and s < 90:
         return 255
 
-    score = greenness(r, g, b)
     hue_green = GREEN_HUE_MIN <= h <= GREEN_HUE_MAX
 
-    if hue_green and s >= 85 and v >= 40:
+    if hue_green and s >= SCREEN_SAT and v >= 50:
         return 0
-    if g > 50 and score >= HARD_GREEN:
+    if g > 80 and score >= HARD_GREEN and s >= SOFT_SAT:
         return 0
 
     rgb_alpha = 255
-    if score > SOFT_GREEN:
+    if score > SOFT_GREEN and s >= SOFT_SAT:
         t = (score - SOFT_GREEN) / (HARD_GREEN - SOFT_GREEN)
         rgb_alpha = int(255 * (1.0 - t))
 
     hue_alpha = 255
-    if hue_green and s > 35 and v > 30:
-        t = (s - 35) / 50
+    if hue_green and s > SOFT_SAT and v > 45:
+        t = (s - SOFT_SAT) / (SCREEN_SAT - SOFT_SAT)
         hue_alpha = int(255 * (1.0 - t))
 
     return clamp(min(rgb_alpha, hue_alpha))
@@ -87,8 +92,8 @@ def remove_green_screen(src: Path, dst: Path) -> Path:
 
     keyed = Image.frombytes("RGBA", image.size, bytes(rgba_bytes))
     rgb = keyed.convert("RGB")
-    alpha = keyed.getchannel("A").filter(ImageFilter.MinFilter(5))
-    alpha = alpha.filter(ImageFilter.GaussianBlur(radius=0.9))
+    alpha = keyed.getchannel("A").filter(ImageFilter.MinFilter(3))
+    alpha = alpha.filter(ImageFilter.GaussianBlur(radius=0.6))
     rgb.putalpha(alpha)
 
     dst.parent.mkdir(parents=True, exist_ok=True)
