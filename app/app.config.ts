@@ -2,7 +2,7 @@ export default defineAppConfig({
   ui: {
     colors: {
       primary: 'brand-green',
-      secondary: 'green',
+      secondary: 'brand-yellow',
       neutral: 'no-color',
     },
     carousel: {
