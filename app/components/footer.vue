@@ -56,7 +56,7 @@
       <div
         class="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-brand-yellow-500"
       >
-        <span>© 2026 Tuane Marcela Correia. Todos os direitos reservados.</span>
+        <span>© 2026 Tuane Correia. Todos os direitos reservados.</span>
         <span>CRN-8 20647</span>
       </div>
     </div>
