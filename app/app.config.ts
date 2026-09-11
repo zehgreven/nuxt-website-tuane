@@ -12,7 +12,10 @@ export default defineAppConfig({
       variants: {
         active: {
           true: {
-            dot: 'data-[state=active]:bg-orange-500',
+            dot: 'data-[state=active]:bg-brand-green-500',
+          },
+          false: {
+            dot: 'bg-brand-green-300',
           },
         },
       },

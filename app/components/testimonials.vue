@@ -1,5 +1,5 @@
 <template>
-  <div class="py-10 bg-gray-50 dark:bg-gray-800 rounded-xl">
+  <div class="py-10 rounded-xl">
     <h2 class="text-center text-2xl font-bold mb-8">O que os pacientes dizem:</h2>
 
     <UCarousel
