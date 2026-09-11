@@ -1,6 +1,6 @@
 <template>
   <div
-    class="space-y-2 p-5 bg-orange-500 dark:bg-orange-400 text-white flex flex-col items-start text-start"
+    class="space-y-2 p-5 bg-orange-500 dark:bg-orange-400 text-white flex flex-col items-center text-center"
   >
     <UIcon :name="icon" :size="size" class="text-white" />
     <div>

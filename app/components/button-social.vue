@@ -1,7 +1,7 @@
 <template>
   <UButton
     class="p-1 hover:scale-120 transition-transform"
-    color="neutral"
+    color="secondary"
     variant="ghost"
     :to="link"
     target="_blank"
