@@ -35,7 +35,7 @@
         <p class="text-4xl font-dream-avenue">o atendimento:</p>
 
         <div class="grid grid-cols-1 lg:grid-cols-5 gap-5 mt-10 mb-10">
-          <HBox class="col-span-1" icon="pixel:healthy-food-dish">
+          <HBox class="col-span-1" icon="i-lucide-clipboard-list">
             <p class="font-bold text-xl mb-5">01. Consulta inicial</p>
             <p>
               Uma avaliação completa e individualizada para entender seus hábitos, rotina,
@@ -43,7 +43,7 @@
             </p>
           </HBox>
 
-          <HBox class="col-span-1" icon="pixel:healthy-food-dish">
+          <HBox class="col-span-1" icon="i-lucide-target">
             <p class="font-bold text-xl mb-5">02. Estratégia personalizada</p>
             <p>
               A partir dessa avaliação, construirei uma estratégia nutricional que se encaixe na sua
@@ -51,7 +51,7 @@
             </p>
           </HBox>
 
-          <HBox class="col-span-1" icon="pixel:healthy-food-dish">
+          <HBox class="col-span-1" icon="i-lucide-message-circle-heart">
             <p class="font-bold text-xl mb-5">03. Acompanhamento</p>
             <p>
               Durante o processo você conta com suporte para esclarecer dúvidas e lidar com as
@@ -59,7 +59,7 @@
             </p>
           </HBox>
 
-          <HBox class="col-span-1" icon="pixel:healthy-food-dish">
+          <HBox class="col-span-1" icon="i-lucide-chart-line">
             <p class="font-bold text-xl mb-5">04. Reavaliação</p>
             <p>
               Após aproximadamente 30 dias, avaliamos sua evolução, resultados, dificuldades e
@@ -67,7 +67,7 @@
             </p>
           </HBox>
 
-          <HBox class="col-span-1" icon="pixel:healthy-food-dish">
+          <HBox class="col-span-1" icon="i-lucide-sprout">
             <p class="font-bold text-xl mb-5">05. Continuidade</p>
             <p>
               O acompanhamento é construído de forma i ndividualizada, respeitando seu ritmo, seus
