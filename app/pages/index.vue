@@ -81,7 +81,7 @@
 
     <Separator />
 
-    <section class="pt-20 pb-20 text-center">
+    <section class="hidden pt-20 pb-20 text-center bg-brand-yellow-500 dark:bg-brand-green-950">
       <div class="container max-w-4xl justify-self-center">
         <Testimonials />
       </div>
