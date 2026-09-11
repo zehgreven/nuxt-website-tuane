@@ -1,7 +1,5 @@
 <template>
-  <footer
-    class="bg-brand-green-500 dark:bg-brand-green-800/50 border-t border-gray-200 dark:border-gray-700 py-12"
-  >
+  <footer class="bg-brand-green-500 dark:bg-brand-green-800/50 py-12">
     <div class="container max-w-4xl mx-auto px-4">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
         <div class="space-y-3">
