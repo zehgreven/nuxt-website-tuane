@@ -70,7 +70,7 @@
           <HBox class="col-span-1" icon="i-lucide-sprout">
             <p class="font-bold text-xl mb-5">05. Continuidade</p>
             <p>
-              O acompanhamento é construído de forma i ndividualizada, respeitando seu ritmo, seus
+              O acompanhamento é construído de forma individualizada, respeitando seu ritmo, seus
               objetivos e o que fizer sentido para cada momento da sua jornada.
             </p>
           </HBox>
