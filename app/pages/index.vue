@@ -28,6 +28,58 @@
     </section>
 
     <section
+      class="pt-20 pb-20 text-center bg-brand-green-500 dark:bg-brand-green-950 text-brand-yellow-500 dark:text-yellow-500"
+    >
+      <div
+        class="container max-w-4xl mx-auto px-4 flex flex-col items-center justify-center space-y-6"
+      >
+        <h2 class="font-dream-avenue text-4xl font-bold">Quem sou eu?</h2>
+        <div class="text-lg max-w-3xl text-left space-y-4 leading-relaxed">
+          <p>
+            Sou nutricionista, pós-graduada em Nutrição Esportiva e Fisiologia do Exercício, e
+            acredito que cuidar da alimentação vai muito além de seguir uma dieta.
+          </p>
+          <p>
+            Meu propósito é ajudar você a construir uma relação mais leve e consciente com a comida,
+            desenvolvendo hábitos que façam sentido para a sua rotina e que possam ser mantidos ao
+            longo do tempo.
+          </p>
+          <p>
+            Acredito em uma nutrição individualizada, baseada em ciência e sem extremismos, que
+            respeita o momento, os objetivos e a realidade de cada pessoa.
+          </p>
+          <p>
+            Seja para emagrecer, melhorar a alimentação, ter mais disposição, cuidar da saúde ou
+            alcançar seus objetivos, meu papel é te orientar para que você consiga transformar sua
+            rotina de forma consistente e sustentável.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="pt-20 pb-20 text-center bg-brand-yellow-500 dark:bg-brand-green-950 text-brand-green-500 dark:text-brand-green-500"
+    >
+      <div
+        class="container max-w-4xl mx-auto px-5 flex flex-col items-center justify-center space-y-6"
+      >
+        <h2 class="font-dream-avenue text-4xl font-bold">Sua jornada começa aqui</h2>
+        <div class="text-lg max-w-3xl text-left space-y-4 leading-relaxed">
+          <p>
+            Se você quer transformar sua alimentação, seus hábitos e sua relação com a comida, eu
+            posso te guiar.
+          </p>
+          <p>
+            Meu trabalho é oferecer um acompanhamento individualizado para você cuidar da sua saúde
+            e construir escolhas que façam sentido para a sua rotina — de forma leve, consciente e
+            sustentável.
+          </p>
+        </div>
+        <ButtonAgendarConsulta label="QUERO AGENDAR MEU HORÁRIO" icon="logo:whatsapp" />
+      </div>
+    </section>
+
+    <section
       class="py-20 px-5 text-center bg-brand-green-500 dark:bg-brand-green-950 text-brand-yellow-500 dark:text-yellow-500"
     >
       <div class="container justify-self-center flex flex-col items-center justify-center">

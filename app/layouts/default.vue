@@ -10,7 +10,7 @@
   <div class="fixed inset-0 h-svh pointer-events-none z-60">
     <div class="absolute right-5 bottom-5 md:bottom-6 pointer-events-auto">
       <UButton
-        to="https://wa.me/554491075497"
+        :to="whatsappUrl"
         target="_blank"
         class="rounded-full shadow-2xl hover:scale-110 transition-transform p-0"
         variant="link"

@@ -44,7 +44,7 @@
               size="sm"
               link="https://www.instagram.com/nutri.tuane/"
             />
-            <ButtonSocial icon="logo:whatsapp" size="sm" link="http://wa.me/554491075497" />
+            <ButtonSocial icon="logo:whatsapp" size="sm" :link="whatsappUrl" />
           </div>
         </div>
       </div>

@@ -17,7 +17,7 @@
           <ButtonSocial
             class="hidden sm:block"
             icon="logo:whatsapp"
-            link="http://wa.me/554491075497"
+            :link="whatsappUrl"
           />
         </div>
       </div>
