@@ -5,7 +5,7 @@
     >
       <img
         src="../assets/images/sofa-preto.png"
-        alt="Tuane Marcela Correia"
+        alt="Tuane Correia"
         class="absolute right-0 top-0 w-full h-full md:w-1/2 object-cover object-center opacity-20 md:opacity-100 z-0"
       />
 

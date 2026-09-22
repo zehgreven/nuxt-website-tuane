@@ -23,7 +23,7 @@
 
 <script setup>
 useHead({
-  titleTemplate: 'Tuane Marcela Correia',
+  titleTemplate: 'Tuane Correia',
   link: [
     {
       rel: 'preconnect',
