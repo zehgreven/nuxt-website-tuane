@@ -42,7 +42,7 @@
             <ButtonSocial
               icon="logo:instagram"
               size="sm"
-              link="https://www.instagram.com/nutri.tuane/"
+              link="https://www.instagram.com/nutrituane/"
             />
             <ButtonSocial icon="logo:whatsapp" size="sm" :link="whatsappUrl" />
           </div>
