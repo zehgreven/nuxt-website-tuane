@@ -28,31 +28,45 @@
     </section>
 
     <section
-      class="pt-20 pb-20 text-center bg-brand-green-500 dark:bg-brand-green-950 text-brand-yellow-500 dark:text-yellow-500"
+      class="bg-brand-green-500 text-brand-yellow-500 dark:bg-brand-green-950 dark:text-yellow-500"
     >
-      <div
-        class="container max-w-4xl mx-auto px-4 flex flex-col items-center justify-center space-y-6"
-      >
-        <h2 class="font-dream-avenue text-4xl font-bold">Quem sou eu?</h2>
-        <div class="text-lg max-w-3xl text-left space-y-4 leading-relaxed">
-          <p>
-            Sou nutricionista, pós-graduada em Nutrição Esportiva e Fisiologia do Exercício, e
-            acredito que cuidar da alimentação vai muito além de seguir uma dieta.
-          </p>
-          <p>
-            Meu propósito é ajudar você a construir uma relação mais leve e consciente com a comida,
-            desenvolvendo hábitos que façam sentido para a sua rotina e que possam ser mantidos ao
-            longo do tempo.
-          </p>
-          <p>
-            Acredito em uma nutrição individualizada, baseada em ciência e sem extremismos, que
-            respeita o momento, os objetivos e a realidade de cada pessoa.
-          </p>
-          <p>
-            Seja para emagrecer, melhorar a alimentação, ter mais disposição, cuidar da saúde ou
-            alcançar seus objetivos, meu papel é te orientar para que você consiga transformar sua
-            rotina de forma consistente e sustentável.
-          </p>
+      <div class="relative container mx-auto max-w-5xl overflow-hidden px-4 py-16 md:px-6 md:py-20">
+        <img
+          src="../assets/images/quem-sou-eu-no-bg-2.png"
+          alt="Tuane Correia, nutricionista, sentada à mesa com o notebook"
+          width="576"
+          height="828"
+          class="absolute top-0 right-0 z-0 h-full w-full object-cover object-center opacity-20 md:w-1/2 md:object-contain md:object-bottom md:opacity-100"
+        />
+        <div class="relative z-10 grid w-full md:grid-cols-2">
+          <div class="md:pr-16">
+            <h2 class="text-center font-dream-avenue text-4xl font-bold text-balance md:text-left">
+              Quem sou eu?
+            </h2>
+            <div
+              class="mx-auto mt-6 max-w-xl space-y-4 text-center text-lg leading-relaxed md:mx-0 md:text-left"
+            >
+              <p>
+                Sou nutricionista, pós-graduada em Nutrição Esportiva e Fisiologia do Exercício, e
+                acredito que cuidar da alimentação vai muito além de seguir uma dieta.
+              </p>
+              <p>
+                Meu propósito é ajudar você a construir uma relação mais leve e consciente com a
+                comida, desenvolvendo hábitos que façam sentido para a sua rotina e que possam ser
+                mantidos ao longo do tempo.
+              </p>
+              <p>
+                Acredito em uma nutrição individualizada, baseada em ciência e sem extremismos, que
+                respeita o momento, os objetivos e a realidade de cada pessoa.
+              </p>
+              <p>
+                Seja para emagrecer, melhorar a alimentação, ter mais disposição, cuidar da saúde ou
+                alcançar seus objetivos, meu papel é te orientar para que você consiga transformar
+                sua rotina de forma consistente e sustentável.
+              </p>
+            </div>
+          </div>
+          <div class="hidden md:block"></div>
         </div>
       </div>
     </section>
