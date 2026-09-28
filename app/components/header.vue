@@ -4,12 +4,21 @@
       <div class="flex justify-between items-center gap-2">
         <NuxtLink
           to="/"
-          class="min-w-0 text-center text-brand-yellow-500 dark:text-brand-yellow-500"
+          class="flex min-w-0 items-center gap-2.5 text-brand-yellow-500 sm:gap-3"
         >
-          <div class="font-dream-avenue text-base xs:text-xl sm:text-3xl truncate">
-            Tuane Correia
-          </div>
-          <div class="text-xs sm:text-lg font-futura font-thin">NUTRICIONISTA</div>
+          <img
+            src="/favicon.svg"
+            alt=""
+            width="163"
+            height="166"
+            class="h-11 w-auto shrink-0 sm:h-14"
+          />
+          <span class="min-w-0 text-left">
+            <span class="block truncate font-dream-avenue text-base xs:text-xl sm:text-3xl">
+              Tuane Correia
+            </span>
+            <span class="block font-futura text-xs font-thin sm:text-lg">NUTRICIONISTA</span>
+          </span>
         </NuxtLink>
         <div class="flex items-center gap-1 sm:gap-2 shrink-0">
           <!-- <ButtonAcessarSistema /> -->
