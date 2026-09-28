@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Remove the green-screen background from sofa-preto.jpeg."""
+"""Remove the green-screen background from an image in app/assets/images."""
 
 from __future__ import annotations
 
@@ -9,8 +9,7 @@ from pathlib import Path
 from PIL import Image, ImageFilter
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_SRC = ROOT / "app/assets/images/sofa-preto.jpeg"
-DEFAULT_DST = ROOT / "app/assets/images/sofa-preto.png"
+IMAGES_DIR = ROOT / "app/assets/images"
 
 # Chroma-key thresholds: how much greener than R/B a pixel must be.
 HARD_GREEN = 36
@@ -101,16 +100,37 @@ def remove_green_screen(src: Path, dst: Path) -> Path:
     return dst
 
 
+def image_filename(value: str) -> Path:
+    filename = Path(value).name
+    if not filename or filename in {".", ".."}:
+        raise argparse.ArgumentTypeError("informe apenas o nome do arquivo")
+    return IMAGES_DIR / filename
+
+
+def default_output(src: Path) -> Path:
+    return IMAGES_DIR / f"{src.stem}_no_bg.png"
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("src", nargs="?", type=Path, default=DEFAULT_SRC)
-    parser.add_argument("-o", "--output", type=Path, default=DEFAULT_DST)
+    parser.add_argument(
+        "src",
+        type=image_filename,
+        help="nome do arquivo de entrada em app/assets/images",
+    )
+    parser.add_argument(
+        "output",
+        nargs="?",
+        type=image_filename,
+        help="nome do arquivo de saída; padrão: <entrada>_no_bg.png",
+    )
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
-    output = remove_green_screen(args.src, args.output)
+    output_path = args.output or default_output(args.src)
+    output = remove_green_screen(args.src, output_path)
     print(f"Wrote {output}")
 
 
