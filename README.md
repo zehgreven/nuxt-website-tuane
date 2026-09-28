@@ -73,3 +73,23 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Remove green screen
+
+`scripts/remove_background.py` removes a green-screen (chroma key) background from an image. Input and output both live in `app/assets/images`; pass only the file name.
+
+From the project root:
+
+```bash
+python3 scripts/remove_background.py your_image.jpeg
+```
+
+When the output name is omitted, the script writes `<input>_no_bg.png`. The command above creates `app/assets/images/your_image_no_bg.png`.
+
+To choose a different output name:
+
+```bash
+python3 scripts/remove_background.py your_image.jpeg another_name.png
+```
+
+The script depends on Pillow (`from PIL import Image`).
