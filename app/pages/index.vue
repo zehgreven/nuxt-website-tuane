@@ -32,7 +32,7 @@
     >
       <div class="relative container mx-auto max-w-5xl overflow-hidden px-4 py-16 md:px-6 md:py-20">
         <img
-          src="../assets/images/quem-sou-eu-no-bg-2.png"
+          src="../assets/images/quem-sou-eu-original.jpeg"
           alt="Tuane Correia, nutricionista, sentada à mesa com o notebook"
           width="576"
           height="828"
