@@ -10,11 +10,6 @@ import type { AccordionItem } from '@nuxt/ui';
 
 const items: AccordionItem[] = [
   {
-    label: 'Quanto tempo dura o programa?',
-    icon: 'i-lucide-hourglass',
-    content: 'O tempo varia conforme a resposta do seu corpo, de maneira personalizada.',
-  },
-  {
     label: 'É uma dieta restritiva?',
     icon: 'i-lucide-candy-off',
     content: 'Não! É um programa alimentar com exames exclusivos',
