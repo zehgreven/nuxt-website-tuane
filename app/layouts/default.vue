@@ -26,6 +26,16 @@ useHead({
   titleTemplate: 'Tuane Correia',
   link: [
     {
+      rel: 'describedby',
+      href: '/llms.txt',
+      type: 'text/plain',
+    },
+    {
+      rel: 'sitemap',
+      href: '/sitemap.xml',
+      type: 'application/xml',
+    },
+    {
       rel: 'preconnect',
       href: 'https://fonts.googleapis.com',
     },
