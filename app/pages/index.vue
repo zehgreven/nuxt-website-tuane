@@ -148,12 +148,15 @@
       </div>
     </section>
 
+    <Plans />
+
     <section class="hidden pt-20 pb-20 text-center bg-brand-yellow-500 dark:bg-brand-green-950">
       <div class="container max-w-4xl justify-self-center">
         <Testimonials />
       </div>
     </section>
 
+    <!--
     <section
       class="pt-20 pb-20 text-center bg-brand-yellow-500 dark:bg-brand-green-950 text-brand-green-500 dark:text-brand-green-500"
     >
@@ -163,5 +166,6 @@
         <Faq />
       </div>
     </section>
+-->
   </div>
 </template>
