@@ -1,6 +1,6 @@
 <template>
   <div class="w-full p-5">
-    <h2 class="text-4xl mb-10">Perguntas Frequentes</h2>
+    <h2 class="font-dream-avenue text-4xl font-bold mb-10">Perguntas Frequentes</h2>
     <UAccordion class="text-left" :items="items" />
   </div>
 </template>
@@ -12,13 +12,14 @@ const items: AccordionItem[] = [
   {
     label: 'É uma dieta restritiva?',
     icon: 'i-lucide-candy-off',
-    content: 'Não! É um programa alimentar com exames exclusivos',
+    content:
+      'Não. O acompanhamento é individualizado, sem extremismos e sem fórmulas prontas, feito para a sua rotina.',
   },
   {
     label: 'Preciso praticar exercícios?',
     icon: 'i-lucide-dumbbell',
     content:
-      'A atividade física pode potencializar os resultados, mas o foco do programa é no ajuste metabólico e nutricional.',
+      'Não é obrigatório. A atividade física pode potencializar os resultados, mas o foco do acompanhamento é a alimentação.',
   },
 ];
 </script>
