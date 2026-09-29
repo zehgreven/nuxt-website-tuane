@@ -1,9 +1,9 @@
 <template>
   <div
-    class="space-y-2 p-5 lg:py-10 rounded-2xl bg-brand-yellow-500 text-brand-green-500 dark:bg-brand-green-700 dark:text-brand-yellow-500 flex flex-col items-center text-center"
+    class="flex flex-col items-center gap-4 rounded-2xl bg-brand-yellow-500 p-6 text-center text-brand-green-500 md:p-8 dark:bg-brand-green-700 dark:text-brand-yellow-500"
   >
     <UIcon :name="icon" :size="size" class="text-brand-green-500 dark:text-brand-yellow-500" />
-    <div class="lg:mt-5">
+    <div>
       <slot />
     </div>
   </div>
