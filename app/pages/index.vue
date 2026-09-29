@@ -96,52 +96,55 @@
     <section
       class="py-20 px-5 text-center bg-brand-green-500 dark:bg-brand-green-950 text-brand-yellow-500 dark:text-yellow-500"
     >
-      <div class="container justify-self-center flex flex-col items-center justify-center">
-        <p class="text-4xl font-dream-avenue">Como funciona</p>
-        <p class="text-4xl font-dream-avenue">o atendimento:</p>
+      <div class="mx-auto flex w-full max-w-7xl flex-col items-center">
+        <h2 class="text-center font-dream-avenue text-4xl leading-tight text-balance">
+          Como funciona<br />o atendimento
+        </h2>
 
-        <div class="grid grid-cols-1 lg:grid-cols-5 gap-5 mt-10 mb-10">
-          <HBox class="col-span-1" icon="i-lucide-clipboard-list">
-            <p class="font-bold text-xl mb-5">01. Consulta inicial</p>
+        <div class="mt-12 grid w-full grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-6">
+          <HBox class="xl:col-span-2" icon="i-lucide-clipboard-list">
+            <h3 class="mb-2 text-xl font-bold">01. Consulta inicial</h3>
             <p>
               Uma avaliação completa e individualizada para entender seus hábitos, rotina,
               histórico, sintomas, exames, prática de exercícios e objetivos.
             </p>
           </HBox>
 
-          <HBox class="col-span-1" icon="i-lucide-target">
-            <p class="font-bold text-xl mb-5">02. Estratégia personalizada</p>
+          <HBox class="xl:col-span-2" icon="i-lucide-target">
+            <h3 class="mb-2 text-xl font-bold">02. Estratégia personalizada</h3>
             <p>
               A partir dessa avaliação, construirei uma estratégia nutricional que se encaixe na sua
               rotina, preferências e necessidades — sem fórmulas prontas.
             </p>
           </HBox>
 
-          <HBox class="col-span-1" icon="i-lucide-message-circle-heart">
-            <p class="font-bold text-xl mb-5">03. Acompanhamento</p>
+          <HBox class="xl:col-span-2" icon="i-lucide-message-circle-heart">
+            <h3 class="mb-2 text-xl font-bold">03. Acompanhamento</h3>
             <p>
               Durante o processo você conta com suporte para esclarecer dúvidas e lidar com as
               dificuldades que surgirem na prática.
             </p>
           </HBox>
 
-          <HBox class="col-span-1" icon="i-lucide-chart-line">
-            <p class="font-bold text-xl mb-5">04. Reavaliação</p>
+          <HBox class="xl:col-span-2 xl:col-start-2" icon="i-lucide-chart-line">
+            <h3 class="mb-2 text-xl font-bold">04. Reavaliação</h3>
             <p>
               Após aproximadamente 30 dias, avaliamos sua evolução, resultados, dificuldades e
               adaptação à estratégia, realizando os ajustes necessários para a próxima etapa.
             </p>
           </HBox>
 
-          <HBox class="col-span-1" icon="i-lucide-sprout">
-            <p class="font-bold text-xl mb-5">05. Continuidade</p>
+          <HBox
+            class="md:col-span-2 md:w-[calc((100%-1.5rem)/2)] md:justify-self-center xl:col-span-2 xl:col-start-4 xl:w-full"
+            icon="i-lucide-sprout"
+          >
+            <h3 class="mb-2 text-xl font-bold">05. Continuidade</h3>
             <p>
               O acompanhamento é construído de forma individualizada, respeitando seu ritmo, seus
               objetivos e o que fizer sentido para cada momento da sua jornada.
             </p>
           </HBox>
         </div>
-        <p class="mt-10"></p>
       </div>
     </section>
 
