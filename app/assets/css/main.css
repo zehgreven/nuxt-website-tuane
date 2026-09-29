@@ -92,3 +92,8 @@
   --color-brand-orange-900: rgb(64 38 22);
   --color-brand-orange-950: rgb(38 24 16);
 }
+
+::selection {
+  background-color: var(--color-brand-green-500);
+  color: var(--color-brand-yellow-500);
+}

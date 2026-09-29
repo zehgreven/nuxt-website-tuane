@@ -15,29 +15,39 @@
         </div>
 
         <div class="space-y-3">
-          <h4
-            class="font-semibold text-brand-yellow-500 dark:text-brand-yellow-500 uppercase text-xs tracking-widest"
+          <p
+            class="font-semibold text-brand-yellow-500 uppercase text-xs tracking-widest dark:text-brand-yellow-500"
           >
             Contato
-          </h4>
+          </p>
           <ul class="text-sm space-y-2 text-brand-yellow-500 dark:text-brand-yellow-500">
             <li class="flex items-center gap-2">
               <UIcon name="i-heroicons-envelope" class="w-4 h-4" />
-              nutrituanecorreia@gmail.com
+              <a
+                href="mailto:nutrituanecorreia@gmail.com"
+                class="underline-offset-2 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-yellow-500"
+              >
+                nutrituanecorreia@gmail.com
+              </a>
             </li>
             <li class="flex items-center gap-2">
               <UIcon name="i-heroicons-phone" class="w-4 h-4" />
-              (44) 99107-5497
+              <a
+                href="tel:+5544991075497"
+                class="underline-offset-2 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-yellow-500"
+              >
+                (44) 99107-5497
+              </a>
             </li>
           </ul>
         </div>
 
         <div class="space-y-3">
-          <h4
-            class="font-semibold text-brand-yellow-500 dark:text-brand-yellow-500 uppercase text-xs tracking-widest"
+          <p
+            class="font-semibold text-brand-yellow-500 uppercase text-xs tracking-widest dark:text-brand-yellow-500"
           >
             Siga-me
-          </h4>
+          </p>
           <div class="flex gap-4">
             <ButtonSocial
               icon="logo:instagram"
@@ -49,7 +59,7 @@
         </div>
       </div>
 
-      <hr class="my-8 border-gray-200 dark:border-gray-700" />
+      <hr class="my-8 border-brand-yellow-500/40" />
 
       <div
         class="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-brand-yellow-500"

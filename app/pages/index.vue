@@ -10,11 +10,11 @@
       />
 
       <div class="relative z-10 grid md:grid-cols-2 w-full">
-        <div class="space-y-4 md:px-5 text-center">
+        <div class="space-y-4 text-center md:px-5 md:text-left">
           <h1 class="font-dream-avenue text-4xl font-bold text-brand-green-500 dark:text-white">
             Nutrição Humanizada
           </h1>
-          <p class="text-lg text-brand-green-500 dark:text-gray-300">
+          <p class="text-lg text-brand-green-500 dark:text-brand-yellow-500">
             Transforme sua relação com a comida através de um acompanhamento personalizado e focado
             no seu bem-estar integral.
           </p>
@@ -30,7 +30,7 @@
     <section
       class="bg-brand-green-500 text-brand-yellow-500 dark:bg-brand-green-950 dark:text-yellow-500"
     >
-      <div class="relative container mx-auto max-w-5xl overflow-hidden px-4 py-16 md:px-6 md:py-20">
+      <div class="relative container mx-auto max-w-5xl overflow-hidden px-4 py-20 md:px-6">
         <img
           src="../assets/images/quem-sou-eu-original.jpeg"
           alt="Tuane Correia, nutricionista, sentada à mesa com o notebook"
@@ -78,7 +78,7 @@
         class="container max-w-4xl mx-auto px-5 flex flex-col items-center justify-center space-y-6"
       >
         <h2 class="font-dream-avenue text-4xl font-bold">Sua jornada começa aqui</h2>
-        <div class="text-lg max-w-3xl text-left space-y-4 leading-relaxed">
+        <div class="mx-auto max-w-prose space-y-4 text-center text-lg leading-relaxed">
           <p>
             Se você quer transformar sua alimentação, seus hábitos e sua relação com a comida, eu
             posso te guiar.

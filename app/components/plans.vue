@@ -9,7 +9,7 @@
           :key="plan.name"
           class="flex h-full flex-col rounded-2xl bg-brand-green-500 p-6 text-left text-brand-yellow-500 md:p-8 dark:bg-brand-green-800"
         >
-          <h3 class="font-dream-avenue text-3xl leading-tight text-balance">{{ plan.name }}</h3>
+          <h3 class="font-dream-avenue text-3xl font-bold leading-tight text-balance">{{ plan.name }}</h3>
           <p class="mt-4 text-base leading-relaxed">{{ plan.forWhom }}</p>
 
           <p class="mt-6 font-semibold">Você recebe</p>
