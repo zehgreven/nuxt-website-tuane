@@ -97,7 +97,7 @@
       class="py-20 px-5 text-center bg-brand-green-500 dark:bg-brand-green-950 text-brand-yellow-500 dark:text-yellow-500"
     >
       <div class="mx-auto flex w-full max-w-7xl flex-col items-center">
-        <h2 class="text-center font-dream-avenue text-4xl leading-tight text-balance">
+        <h2 class="text-center font-dream-avenue font-bold text-4xl leading-tight text-balance">
           Como funciona<br />o atendimento
         </h2>
 
