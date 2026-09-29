@@ -2,9 +2,9 @@
   <UButton
     class="pt-5 pb-5 pl-10 pr-10 rounded-full text-lg"
     size="lg"
-    color="primary"
     variant="solid"
-    :to="whatsappUrl"
+    :color="color"
+    :to="to"
     target="_blank"
   >
     {{ label }}
@@ -13,14 +13,20 @@
 </template>
 
 <script setup lang="ts">
-withDefaults(
+const props = withDefaults(
   defineProps<{
     label?: string;
     icon?: string;
+    message?: string;
+    color?: 'primary' | 'secondary';
   }>(),
   {
     label: 'AGENDAR CONSULTA AGORA',
     icon: undefined,
+    message: undefined,
+    color: 'primary',
   },
 );
+
+const to = computed(() => (props.message ? buildWhatsappUrl(props.message) : whatsappUrl));
 </script>
